@@ -18,7 +18,7 @@ public class Employee {
 	private int monthWorkingInYear;
 	
 	private boolean isForeigner;
-	private boolean gender; //true = Laki-laki, false = Perempuan
+	private boolean gender; 
 	
 	private int monthlySalary;
 	private int otherMonthlyIncome;
@@ -52,19 +52,19 @@ public class Employee {
 	
 	public void setMonthlySalary(int grade) {	
 		if (grade == 1) {
-			monthlySalary = 3000000;
+			monthlySalary = 4000000;
 			if (isForeigner) {
-				monthlySalary = (int) (3000000 * 1.5);
+				monthlySalary = (int) (4000000 * 1.5);
 			}
 		}else if (grade == 2) {
-			monthlySalary = 5000000;
+			monthlySalary = 6000000;
 			if (isForeigner) {
-				monthlySalary = (int) (3000000 * 1.5);
+				monthlySalary = (int) (4000000 * 1.5);
 			}
 		}else if (grade == 3) {
 			monthlySalary = 7000000;
 			if (isForeigner) {
-				monthlySalary = (int) (3000000 * 1.5);
+				monthlySalary = (int) (4000000 * 1.5);
 			}
 		}
 	}
